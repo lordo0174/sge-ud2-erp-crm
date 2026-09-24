@@ -85,8 +85,6 @@ Una edición Community suele ofrecer las funcionalidades principales del product
 
 ## 4. Fe de erratas del tema 2
 
-## 4. Fe de erratas del tema 2
-
 ### Errata 1: versión de Odoo
 
 - **Qué dice el tema:** El tema indica que la versión actual de Odoo es la 14. También indica que el servidor utiliza Python 3.10 o posterior y PostgreSQL. 
@@ -101,7 +99,6 @@ Una edición Community suele ofrecer las funcionalidades principales del product
 - **Fuente:** Documentación oficial de SuiteCRM: https://docs.suitecrm.com/8.x/admin/releases/8.10/ y https://docs.suitecrm.com/8.x/admin/compatibility-matrix/
 - **Fecha de consulta:** 24/09/2026
 
-## 5. Matriz de decisión y 
 
 ## 5. Matriz de decisión
 
