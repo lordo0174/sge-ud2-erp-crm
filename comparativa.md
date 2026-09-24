@@ -104,4 +104,88 @@ Una edición Community suele ofrecer las funcionalidades principales del product
 - **Fuente:** Documentación oficial de SuiteCRM: https://docs.suitecrm.com/8.x/admin/releases/8.10/ y https://docs.suitecrm.com/8.x/admin/compatibility-matrix/
 - **Fecha de consulta:** 24/09/2026
 
-## 5. Matriz de decisión y recomendación
+## 5. Matriz de decisión y 
+
+## 5. Matriz de decisión
+
+Para TecnoAyuda se han comparado tres soluciones: Odoo Community, SuiteCRM y Salesforce. La selección de los criterios se ha realizado teniendo en cuenta las necesidades de la empresa, especialmente la gestión centralizada de las incidencias de los 14 técnicos.
+
+### Criterios y pesos
+
+- **Gestión de incidencias: 30 %**
+- **Gestión de clientes/CRM: 20 %**
+- **Coste total (TCO): 20 %**
+- **Personalización: 10 %**
+- **Facilidad de implantación: 10 %**
+- **Escalabilidad: 10 %**
+
+Los pesos suman un total del 100 %.
+
+### Puntuaciones
+
+| Criterio | Peso | Odoo Community | SuiteCRM | Salesforce |
+|---|---:|---:|---:|---:|
+| Gestión de clientes/CRM | 20 | 4 | 5 | 5 |
+| Gestión de incidencias | 30 | 2 | 5 | 5 |
+| Coste total (TCO) | 20 | 5 | 5 | 2 |
+| Personalización | 10 | 5 | 5 | 4 |
+| Facilidad de implantación | 10 | 4 | 3 | 4 |
+| Escalabilidad | 10 | 5 | 4 | 5 |
+| **TOTAL PONDERADO** | **100** | **3,80** | **4,70** | **4,00** |
+
+### Justificación de las puntuaciones
+
+**Odoo Community**
+
+- **Gestión de clientes/CRM: 4/5.** Odoo dispone de funcionalidades CRM para gestionar clientes, oportunidades y actividades.
+- **Gestión de incidencias: 2/5.** Odoo dispone de una aplicación Helpdesk para la gestión de tickets, pero esta funcionalidad pertenece a la edición Enterprise. Por este motivo, la puntuación de Odoo Community es inferior.
+- **Coste total: 5/5.** La edición Community es de código abierto y no requiere el pago de una licencia Enterprise, aunque pueden existir costes de instalación, alojamiento y mantenimiento.
+- **Personalización: 5/5.** Al tratarse de software de código abierto, permite modificar y adaptar el sistema.
+- **Facilidad de implantación: 4/5.** Odoo integra diferentes aplicaciones en una misma plataforma, aunque pueden ser necesarios módulos adicionales para cubrir todas las necesidades de TecnoAyuda.
+- **Escalabilidad: 5/5.** La plataforma permite ampliar sus funcionalidades mediante diferentes aplicaciones.
+
+**SuiteCRM**
+
+- **Gestión de clientes/CRM: 5/5.** Es una solución CRM de código abierto orientada a la gestión de relaciones con clientes.
+- **Gestión de incidencias: 5/5.** Dispone del módulo Cases, diseñado para registrar y gestionar solicitudes de soporte de los clientes.
+- **Coste total: 5/5.** No requiere pagar licencias por usuario, aunque existen costes asociados al alojamiento, instalación, configuración y mantenimiento.
+- **Personalización: 5/5.** Su carácter de código abierto permite adaptar el sistema a las necesidades de la empresa.
+- **Facilidad de implantación: 3/5.** Su instalación requiere configurar servidor web, PHP y una base de datos, por lo que puede necesitar más trabajo técnico.
+- **Escalabilidad: 4/5.** Puede crecer junto con la empresa, aunque una instalación propia requiere gestionar también la infraestructura.
+
+**Salesforce**
+
+- **Gestión de clientes/CRM: 5/5.** Salesforce es una plataforma CRM con funcionalidades específicas para gestionar clientes y relaciones comerciales.
+- **Gestión de incidencias: 5/5.** Service Cloud incluye gestión de casos para registrar y resolver problemas de los clientes y permite trabajar con diferentes canales de atención.
+- **Coste total: 2/5.** Utiliza un modelo de suscripción por usuario y las funcionalidades avanzadas pueden aumentar el coste para una empresa con varios técnicos.
+- **Personalización: 4/5.** Permite una amplia configuración y personalización dentro de su plataforma.
+- **Facilidad de implantación: 4/5.** Al ser una solución en la nube, no es necesario mantener directamente toda la infraestructura del servidor.
+- **Escalabilidad: 5/5.** Permite ampliar usuarios, productos y funcionalidades según las necesidades de la empresa.
+
+### Cálculo de las puntuaciones
+
+La puntuación ponderada se obtiene multiplicando cada puntuación por el peso del criterio y dividiendo entre 100.
+
+Por ejemplo, para SuiteCRM:
+
+- Gestión de clientes/CRM: `5 × 20 / 100 = 1,00`
+- Gestión de incidencias: `5 × 30 / 100 = 1,50`
+- Coste total: `5 × 20 / 100 = 1,00`
+- Personalización: `5 × 10 / 100 = 0,50`
+- Facilidad de implantación: `3 × 10 / 100 = 0,30`
+- Escalabilidad: `4 × 10 / 100 = 0,40`
+
+**Total: 1,50 + 1,00 + 1,00 + 0,50 + 0,30 + 0,40 = 4,70**
+
+### Recomendación para TecnoAyuda
+
+Según los criterios y pesos establecidos para este caso, **SuiteCRM obtiene una puntuación ponderada de 4,70 sobre 5**. Su principal ventaja para TecnoAyuda es que dispone de funcionalidades específicas para gestionar incidencias mediante el módulo Cases y, además, permite trabajar con clientes y contactos.
+
+Por estos motivos, se propone **SuiteCRM como solución candidata para TecnoAyuda**, teniendo en cuenta que la empresa tendría que asumir las tareas de instalación, configuración, mantenimiento y soporte técnico.
+
+### Riesgos
+
+- **TCO:** aunque no haya costes de licencia por usuario en SuiteCRM, hay que considerar los costes de servidores, alojamiento, mantenimiento, configuración y soporte.
+- **Vendor lock-in:** al utilizar una solución de código abierto se puede reducir la dependencia de un único proveedor, aunque pueden existir dependencias respecto a la infraestructura, personal técnico o servicios contratados.
+- **Soporte:** una instalación propia requiere disponer de conocimientos técnicos o contratar servicios de soporte.
+- **Migración futura:** antes de implantar la solución se debe comprobar que los datos puedan exportarse correctamente para facilitar una futura migración a otro sistema.
