@@ -4,7 +4,7 @@
 
 - **Propietario:** lordo0174
 - **Empresa:** 29 - TecnoAyuda
-- **Palabra del día:** chorizo
+- **Palabra del día:** Libre
 
 ## 2. Licencias y modelos
 
