@@ -29,9 +29,6 @@ Que un software sea libre no significa que tenga que ser gratuito. El término "
 Una edición Community suele ofrecer las funcionalidades principales del producto y está orientada a usuarios que necesitan una solución con menos servicios o funcionalidades empresariales adicionales. Una edición Enterprise suele ser una versión comercial que incorpora funcionalidades adicionales, servicios de soporte y otras prestaciones destinadas a empresas, normalmente mediante una suscripción o licencia de pago.
 
 
-
-## 3. Fichas técnicas
-
 ## 3. Fichas técnicas
 
 ### 3.1 Odoo Community
