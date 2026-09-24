@@ -88,4 +88,20 @@ Una edición Community suele ofrecer las funcionalidades principales del product
 
 ## 4. Fe de erratas del tema 2
 
+## 4. Fe de erratas del tema 2
+
+### Errata 1: versión de Odoo
+
+- **Qué dice el tema:** El tema indica que la versión actual de Odoo es la 14. También indica que el servidor utiliza Python 3.10 o posterior y PostgreSQL. 
+- **Qué es correcto actualmente:** La documentación oficial actual corresponde a Odoo 19. Odoo 19 requiere Python 3.10 o posterior y utiliza PostgreSQL, siendo PostgreSQL 13 o superior la versión mínima compatible.
+- **Fuente:** Documentación oficial de Odoo 19: https://www.odoo.com/documentation/19.0/es/administration/on_premise/source.html
+- **Fecha de consulta:** 24/09/2026
+
+### Errata 2: versión y bases de datos de SuiteCRM
+
+- **Qué dice el tema:** El tema indica que SuiteCRM dispone de la versión 7.14.5 bajo licencia AGPL-3.0 y que puede funcionar con MySQL, MariaDB o SQL Server.
+- **Qué es correcto actualmente:** La documentación oficial actual de SuiteCRM muestra la versión 8.10.2, publicada el 31 de julio de 2026. Para SuiteCRM 8.10.x, las bases de datos compatibles indicadas oficialmente son MariaDB 10.6, 10.11, 11.4 y 11.8, y MySQL 8.0 y 8.4. SQL Server no aparece en la matriz de compatibilidad actual.
+- **Fuente:** Documentación oficial de SuiteCRM: https://docs.suitecrm.com/8.x/admin/releases/8.10/ y https://docs.suitecrm.com/8.x/admin/compatibility-matrix/
+- **Fecha de consulta:** 24/09/2026
+
 ## 5. Matriz de decisión y recomendación
